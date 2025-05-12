@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Parques Acuáticos</title>
+    <style>    
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+        
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+      
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <header>
+        <h1>Parques acuáticos sin profundidad</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="centrado">Preferencias de los padres de familia</h2>
+    
+    <hr>
+    <div class="container">
+        <table>
+
+            <colgroup>
+                <col style="background-color: rgb(159, 164, 164);">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+
+        <th></th>    
+        <th>Número</th>
+        <th>Evento</th>
+
+        <tr>
+            <td>Fuentes</td>
+            <td>Serpiente</td>
+            <td>Rana</td>
+        </tr>
+
+        <tr>
+            <td>Túnel de agua</td>
+            <td>Fuente párvulos</td>
+            <td>Balde niños</td>
+        </tr>
+
+        <tr>
+            <td>Palma</td>
+            <td>Bambú</td>
+            <td>Bosque</td>
+        </tr>
+
+        <tr>
+            <td>Aros</td>
+            <td>Pez</td>
+            <td>Pez espada</td>
+        </tr>
+        
+        <tr>
+            <td>Estrella</td>
+            <td>Canasto</td>
+            <td>Flor</td>
+        </tr>
+
+        </table>
+
+    </div>
+
+<footer class="footer">
+    <p>Derechos reservados &copy; 2025</p>
+</footer>
+
+</body>
+</html>
